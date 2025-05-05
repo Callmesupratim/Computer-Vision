@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../test/images
+test: ../test/images
+
+nc: 37
+names: ['Crossroad', 'Cycle Prohibited', 'Gap in the Median', 'Give Way', 'Go Slow', 'Horn Prohibited', 'Hospital', 'Keep Left', 'Left turn', 'Men at Work', 'No Entry', 'No Left Turn', 'No Overtaking', 'No Parking', 'No Right Turn', 'No Stopping', 'Parking', 'Pedestrian Crossing', 'Right Turn', 'Roundabout', 'School Ahead', 'Side Road Left', 'Side Road Right', 'Speed Breaker', 'Speed Limit 20', 'Speed Limit 30', 'Speed Limit 40', 'Speed Limit 50', 'Speed Limit 60', 'Speed Limit 80', 'Stop', 'T Intersection', 'Traffic Signal Ahead', 'U-Turn Prohibited', 'U-turn', 'Y Intersection', 'Zigzag Road']
+
+roboflow:
+  workspace: aaa-t4bs0
+  project: my-second-project-eby1m
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aaa-t4bs0/my-second-project-eby1m/dataset/3
